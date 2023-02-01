@@ -14,7 +14,7 @@ int main(){
     std::cout << "The address of a is: " << &a << std::endl;
     std::cout << "Where ptr is pointing, we have: " << *ptr << std::endl;
 
-     my_cow = new cow("Gertie", 3, hide);
+    my_cow = new cow("Gertie", 3, hide);
     std::cout << my_cow->get_name() << " is a type-" << (int)my_cow->get_purpose() << " cow." << std::endl;
     std::cout << my_cow->get_name() << " is " << (int)my_cow->get_age() << " years old" << std::endl;
 
